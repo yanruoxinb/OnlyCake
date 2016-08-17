@@ -23,13 +23,14 @@ class SignUp extends Component {
   render() {
     return (
         <div className="container">
-          <div className="col-md-10 col-">
-            <div className="col-md-6 ">
+          <div className="col-md-12 ">
+            <div className="col-md-7" style={{marginTop:'20%'}}>
+              <label htmlFor="create" className="col-offset-2  control-label text-info" >注册Registered Member</label>
               <form action="#" className="form-horizontal col-md-12">
                 <div className="form-group">
-                  <label htmlFor="inputEmail3" className="col-sm-3 col-md-2 control-label">Username:</label>
-                  <div className="col-sm-6 col-md-7">
-                    <input type="email"
+                  <label htmlFor="inputEmail3" className="col-sm-3 col-md-3 control-label">Username:</label>
+                  <div className="col-sm-6 col-md-6">
+                    <input type="text"
                            className="form-control"
                            id="inputEmail3"
                            placeholder="Please input username"
@@ -41,8 +42,8 @@ class SignUp extends Component {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="inputEmail3" className="col-sm-3 col-md-2 control-label">Password:</label>
-                  <div className="col-sm-6 col-md-7">
+                  <label htmlFor="inputEmail3" className="col-sm-3 col-md-3 control-label">Password:</label>
+                  <div className="col-sm-6 col-md-6">
                     <input type="password"
                            className="form-control"
                            id="inputEmail3"
@@ -55,8 +56,8 @@ class SignUp extends Component {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="inputEmail3" className="col-sm-3 col-md-2 control-label">RePassword</label>
-                  <div className="col-sm-6 col-md-7">
+                  <label htmlFor="inputEmail3" className="col-sm-3 col-md-3 control-label">RePassword:</label>
+                  <div className="col-sm-6 col-md-6">
                     <input type="password"
                            className="form-control"
                            id="inputEmail3"
@@ -72,6 +73,7 @@ class SignUp extends Component {
                 </div>
               </form>
             </div>
+            <div className="col-md-5"></div>
           </div>
         </div>
           );
